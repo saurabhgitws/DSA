@@ -1,4 +1,4 @@
-package com.source.searching;
+package com.source.algo;
 
 import java.nio.file.Path;
 
@@ -6,8 +6,11 @@ public class KMPStringPatternSearching {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String txt = "ABABDABACDABABCABAB";
-        String pat = "ABABCABAB";
+		//String txt = "ABABDABACDABABCABAB";
+       // String pat = "ABABCABAB";
+        
+        String txt = "AABAACAADAABAABA";
+        String pat   =  "AABA";
         KMPSearch(pat, txt);
 	}
 	
